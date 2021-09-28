@@ -28,8 +28,8 @@
     
 
     function insert() {
-        $sql = "INSERT INTO timestamp_tbl VALUES()"
-        mysqli_query($conn, $sql);
+        //$sql = "INSERT INTO timestamp_tbl VALUES()"
+        //mysqli_query($conn, $sql);
         exit;
     }
 ?>
