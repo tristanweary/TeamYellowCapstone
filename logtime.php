@@ -25,13 +25,10 @@
         }
     }
 
-    function select() {
-        echo "The select function is called.";
-        exit;
-    }
+    
 
     function insert() {
-        echo "The insert function is called.";
+        
         //$sql = "INSERT INTO timestamp_tbl VALUES()"
         //mysqli_query($conn, $sql);
         exit;
