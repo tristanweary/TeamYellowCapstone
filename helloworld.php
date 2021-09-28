@@ -11,18 +11,23 @@
   $servername = "127.0.0.1:3306";
     $username = "root";
     $password = "";
-    $db = "timestamp_db";// Create connection
-    $conn = new mysqli($servername, $username, $password, $db);
+    $db = "timestamp_db";
 
 
     //Create connection
-    $conn = new;
-    $mysqli($servername, $username, $password, $db);
+    $conn = mysqli_connect($servername, $username, $password, $db);
   
+    // Check connection
+    if (!$conn) {
+     die("Connection failed: " . mysqli_connect_error());
+}
+     echo "Connected successfully";
+  
+    $sql = "INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL)"
   
   
         if(isset($_POST['Log'])) {
-            mysqli_query(INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL));
+            mysqli_query($conn, $sql)
         }
         if(isset($_POST['button2'])) {
             echo "This is Button2 that is selected";
