@@ -1,8 +1,0 @@
-To access the server you will need to download the secret key to ssh
-
-Use the following command to get into the server
-
-ssh -i PathToFile\TeamYello.pem ec2-user@35.170.248.132
-
-
-Test push code
