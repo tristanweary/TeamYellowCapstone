@@ -19,16 +19,13 @@
             case 'insert':
                 insert();
                 break;
-            case 'select':
-                select();
-                break;
         }
     }
 
     
 
     function insert() {
-        mysqli_query(INSERT INTO timestamp_tbl VALUES());
+        $conn->query(INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL));
         exit;
     }
 ?>
