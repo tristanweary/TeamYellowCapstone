@@ -33,8 +33,8 @@
 
     function insert() {
         echo "The insert function is called.";
-        $sql = "INSERT INTO timestamp_tbl VALUES()"
-        mysqli_query($conn, $sql);
+        //$sql = "INSERT INTO timestamp_tbl VALUES()"
+        //mysqli_query($conn, $sql);
         exit;
     }
 ?>
