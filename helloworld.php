@@ -22,7 +22,7 @@
   
   
         if(isset($_POST['Log'])) {
-            echo "This is Button1 that is selected";
+            mysqli_query(INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL));
         }
         if(isset($_POST['button2'])) {
             echo "This is Button2 that is selected";
