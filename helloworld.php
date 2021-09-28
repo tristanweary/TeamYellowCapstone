@@ -8,6 +8,19 @@
 
 <?php
       
+  $servername = "127.0.0.1:3306";
+    $username = "root";
+    $password = "";
+    $db = "timestamp_db";// Create connection
+    $conn = new mysqli($servername, $username, $password, $db);
+
+
+    //Create connection
+    $conn = new;
+    $mysqli($servername, $username, $password, $db);
+  
+  
+  
         if(isset($_POST['Log'])) {
             echo "This is Button1 that is selected";
         }
