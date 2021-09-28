@@ -7,8 +7,8 @@
 
 
 <form method="post">
-        <input type="submit" name="button1"
-                value="Button1"/>
+        <input type="submit" name="Log"
+                value="Log"/>
           
         <input type="submit" name="button2"
                 value="Button2"/>
