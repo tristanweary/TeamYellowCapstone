@@ -8,7 +8,7 @@
 
 <?php
       
-  $servername = "127.0.0.1:3306";
+    $servername = "127.0.0.1:3306";
     $username = "root";
     $password = "";
     $db = "timestamp_db";
@@ -26,10 +26,10 @@
     $sql = "INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL)"
   
   
-        if(isset($_POST['Log'])) {
+     if(isset($_POST['Log'])) {
             mysqli_query($conn, $sql)
         }
-        if(isset($_POST['button2'])) {
+     if(isset($_POST['button2'])) {
             echo "This is Button2 that is selected";
         }
     ?>  
