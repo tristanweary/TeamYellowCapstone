@@ -28,7 +28,8 @@
     
 
     function insert() {
-        
+        $output = shell_exec('date');
+        echo "<pre>$output</pre>";
         //$sql = "INSERT INTO timestamp_tbl VALUES()"
         //mysqli_query($conn, $sql);
         exit;
