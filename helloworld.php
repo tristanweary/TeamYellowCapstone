@@ -8,7 +8,7 @@
 
 <?php
       
-        if(isset($_POST['button1'])) {
+        if(isset($_POST['Log'])) {
             echo "This is Button1 that is selected";
         }
         if(isset($_POST['button2'])) {
