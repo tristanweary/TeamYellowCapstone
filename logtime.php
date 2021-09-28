@@ -26,7 +26,7 @@
     
 
     function insert() {
-        $conn->query(INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL));
+        //$conn->query(INSERT INTO timestamp_tbl(id, ts) VALUES (NULL, NULL));
         exit;
     }
 ?>
