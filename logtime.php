@@ -3,7 +3,7 @@
 <?php
 
 
-    $servername = "localhost";
+    $servername = "127.0.0.1:3306";
     $username = "root";
     $password = "";
     $db = "timestamp_db";// Create connection
@@ -28,10 +28,8 @@
     
 
     function insert() {
-        $output = shell_exec('date');
-        echo "<pre>$output</pre>";
-        //$sql = "INSERT INTO timestamp_tbl VALUES()"
-        //mysqli_query($conn, $sql);
+        $sql = "INSERT INTO timestamp_tbl VALUES()"
+        mysqli_query($conn, $sql);
         exit;
     }
 ?>
