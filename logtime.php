@@ -1,4 +1,4 @@
-<input type="submit" class="button" name="insert" value="logtime" />
+<input type="submit" class="button" name="insert" value="insert" />
 
 <?php
 
