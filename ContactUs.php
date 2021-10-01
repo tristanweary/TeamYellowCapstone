@@ -13,7 +13,7 @@
         <a class="nav-link active" href="HomePage.php">Home</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="index.php">Hello World</a>
+        <a class="nav-link" href="HelloWorld.php">Hello World</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="ContactUs.php">Contact Us</a>
