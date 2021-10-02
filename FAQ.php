@@ -30,6 +30,7 @@
     <p>How do I order?&emsp;We are working on making ordering available online, hold tight!</p>
     <p>I can't find the location?&emsp;No worries we are a bit hard to find. We are located in your local mall area next to the fountain!</p>
     <p>Also feel free to reach out towards our customer support email for any additional questions at coffee@loveyoualatte.com</p>
+  <p>Store Hours: M-F 10AM-9PM, Saturday: 11AM-2AM, Sunday: 10AM-8PM </p>
 </div>
 
 </body>
